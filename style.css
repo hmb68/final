@@ -8,6 +8,15 @@ body, html {
 
         }
 
+        h1 {text-align: left;}
+        /* other styling */
+        body {
+        color: white;
+        }
+
+
+
+
 
 .buttonbox {
     display: flex;
@@ -15,15 +24,17 @@ body, html {
     align-items: center;
     height: 20px;
     border: 0px solid black;
+    text-decoration: none;
 }
 
 .button {
     background-color: #032467;
     border: none;
     color: white;
-    padding: 15px 32px;
+    padding: 10px 20px;
     text-align: center;
     display: inline-block;
+    text-decoration: none;
     font-size: 18px;
     cursor: pointer;
 
@@ -297,3 +308,41 @@ this CSS element centers text elements*/
 #footer {
         text-align: center;
     }
+
+
+    /* The navigation bar */
+  .navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+  }
+
+  /* Links inside the navbar */
+  .navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  /* Change background on mouse-over */
+  .navbar a:hover {
+    background: white;
+    color: #0099FC;
+  }
+
+  /* Main content */
+  .main {
+    margin-top: 30px; /* Add a top margin to avoid content overlay */
+  }
+
+
+
+/* mouse over link */
+a:hover {
+  color: #0099FC;
+}
