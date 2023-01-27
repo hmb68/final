@@ -340,7 +340,17 @@ this CSS element centers text elements*/
     margin-top: 30px; /* Add a top margin to avoid content overlay */
   }
 
+  /* unvisited link */
+  a:link {
+    color: white;
+  }
 
+  /* visited link */
+  a:visited {
+    color: #FF7800;
+  }
+
+  /* mouse over link */
 
 /* mouse over link */
 a:hover {
